@@ -3,7 +3,7 @@ name: build-binary
 on: [push, pull_request]
 
 jobs:
-  build-and-push:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
